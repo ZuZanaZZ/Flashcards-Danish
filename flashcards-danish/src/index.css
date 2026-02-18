@@ -49,3 +49,16 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+.flashcard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: var(--tw-border-style);
+  border-width: 4px;
+  border-radius: var(--radius-xl);
+  --tw-border-style: solid;
+  border-style: solid;
+  border-color: var(--color-pink-300);
+  color: var(--color-pink-900);
+}

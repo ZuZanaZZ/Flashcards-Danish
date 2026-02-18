@@ -3,7 +3,7 @@ import "./App.css"
 
 function Card() {
   return (
-    <div className="flex w-50 sm:w-100 lg:w-200 h-25 sm:h-50 lg:h-100 items-center justify-center border-4 rounded-xl border-solid border-pink-300 text-pink-900 text-xl sm:text-2xl lg:text-4xl"> 
+    <div className="flashcard w-50 sm:w-100 lg:w-200 h-25 sm:h-50 lg:h-100 text-xl sm:text-2xl lg:text-4xl"> 
     Front side of the flashcard 
     </div>
   );
