@@ -3,7 +3,9 @@ import React from "react"
 export default function Card(props: { frontSide: string; backSide: string; }) {
   const [text, setText] = React.useState(props.frontSide);
   function handleClick() {
-    setText(props.backSide);
+    setText(oldState => {
+      return oldState === props.frontSide ? props.backSide : props.frontSide;
+    });
   }
   
   return (
