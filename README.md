@@ -1,2 +1,2 @@
 # Flashcards-Danish
-website for learning danish
+Website for learning Danish
