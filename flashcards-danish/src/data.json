@@ -2,5 +2,9 @@
     {
         "english": "bread",
         "danish": "brød"
+    },
+    {
+        "english": "mushroom",
+        "danish": "svampe"
     }
 ]
