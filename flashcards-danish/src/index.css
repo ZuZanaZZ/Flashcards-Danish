@@ -55,11 +55,19 @@ h1 {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border-style: var(--tw-border-style);
+  user-select: none;
+  color: var(--color-pink-900);
+}
+
+.button{
+  cursor: pointer;
+  user-select: none;
+  color: var(--color-pink-900)
+}
+
+.border{
   border-width: 4px;
   border-radius: var(--radius-xl);
-  --tw-border-style: solid;
-  border-style: solid;
   border-color: var(--color-pink-300);
-  color: var(--color-pink-900);
+  border-style: solid;
 }
