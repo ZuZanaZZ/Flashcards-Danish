@@ -58,8 +58,18 @@ h1 {
   border-style: var(--tw-border-style);
   border-width: 4px;
   border-radius: var(--radius-xl);
-  --tw-border-style: solid;
+  user-select: none;
   border-style: solid;
   border-color: var(--color-pink-300);
   color: var(--color-pink-900);
+}
+
+.button{
+    border-width: 4px;
+  border-radius: var(--radius-xl);
+  user-select: none;
+  border-style: solid;
+  border-color: var(--color-pink-300);
+  cursor: pointer;  
+  color: var(--color-pink-900)
 }

@@ -20,8 +20,8 @@ function App() {
         <h1 className="text-pink-900 text-2xl sm:text-4xl lg:text-8xl">Flashcards for Danish</h1>
         <Card frontSide={Data[index].english} backSide={Data[index].danish}/>
         <div className="flex text-4xl gap-16">
-          <button onClick={handleLeft} className="text-pink-900 cursor-pointer">&lt;</button>
-          <button onClick={handleRight} className="text-pink-900 cursor-pointer">&gt;</button>
+          <button onClick={handleLeft} className="button w-16 h-16">&lt;</button>
+          <button onClick={handleRight} className="button w-16 h-16">&gt;</button>
         </div>
       </div>
     </>
