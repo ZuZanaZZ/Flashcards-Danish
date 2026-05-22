@@ -2,6 +2,7 @@ import "./App.css"
 import Card from "./Card"
 import Data from "./data.json"
 import React from "react"
+import Navbar from "./Navbar"
 
 function App() {
   const [index, setIndex] = React.useState(0);
@@ -15,16 +16,16 @@ function App() {
   }
 
   return (
-    <>
-      <div className="grid w-full h-full place-items-center gap-8">
-        <h1 className="text-pink-900 text-2xl sm:text-4xl lg:text-8xl">Flashcards for Danish</h1>
+    <div className="flex w-screen h-screen">
+      <Navbar/>
+      <div className="flex flex-col m-8 mt-32">
         <Card frontSide={Data[index].english} backSide={Data[index].danish}/>
-        <div className="mt-4 sm:mt-8 flex text-xl sm:text-2xl lg:text-4xl gap-16 sm:gap-32">
+        <div className="mt-4 sm:mt-8 text-xl sm:text-2xl lg:text-4xl space-x-16 sm:space-x-32">
           <button onClick={handleLeft} className="button">◁</button>
           <button onClick={handleRight} className="button">▷</button>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
