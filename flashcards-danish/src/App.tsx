@@ -16,11 +16,11 @@ function App() {
   }
 
   return (
-    <div className="flex w-screen h-screen">
+    <div className="flex flex-col sm:flex-row w-screen h-screen">
       <Navbar/>
-      <div className="flex flex-col m-8 mt-32">
+      <div className="flex flex-col items-center sm:w-full m-16 sm:mt-32">
         <Card frontSide={Data[index].english} backSide={Data[index].danish}/>
-        <div className="mt-4 sm:mt-8 text-xl sm:text-2xl lg:text-4xl space-x-16 sm:space-x-32">
+        <div className="mt-8 text-2xl md:text-4xl space-x-32">
           <button onClick={handleLeft} className="button">◁</button>
           <button onClick={handleRight} className="button">▷</button>
         </div>
