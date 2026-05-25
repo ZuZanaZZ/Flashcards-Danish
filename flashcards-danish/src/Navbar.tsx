@@ -5,13 +5,12 @@ type Category = "Food" | "Kitchen";
 };
 
 export default function Navbar({ setCategory }: Props) {
-  return <nav className="navbar m-8">
-    <div className="flex flex-col gap-8">
-      <h1 className="text-pink-900 text-left text-xl sm:text-2xl md:text-4xl">Flashcards for Danish</h1>
-      <ul className="flex flex-col gap-2">
-        <li onClick={() => setCategory("Food")} className="text-pink-900 text-left border button">Food</li>
-        <li onClick={() => setCategory("Kitchen")} className="text-pink-900 text-left border button">Kitchen</li>
+  return (
+    <nav className="mx-8 mt-8 navbar md:w-64">
+      <ul className="flex md:flex-col gap-4">
+        <li onClick={() => setCategory("Food")} className="text-pink-900 border button py-2 grow">Food</li>
+        <li onClick={() => setCategory("Kitchen")} className="text-pink-900 border button py-2 grow">Kitchen</li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  )
 }

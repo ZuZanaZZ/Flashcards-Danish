@@ -13,7 +13,7 @@ export default function Card(props: { frontSide: string; backSide: string; }) {
   }
 
   return (
-    <div className="flashcard border w-full aspect-2/1 text-xl sm:text-2xl md:text-4xl"
+    <div className="flashcard border w-full max-w-3xl aspect-2/1 text-2xl md:text-4xl"
       onClick={handleClick}>
     {text}
     </div>
