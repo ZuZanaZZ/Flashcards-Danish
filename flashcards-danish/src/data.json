@@ -1,14 +1,30 @@
-[
-    {
+{
+    "Food": [
+        {
         "english": "Bread",
         "danish": "Brød"
-    },
-    {
-        "english": "Mushroom",
-        "danish": "Svampe"
-    },
-    {
-        "english": "Cheese",
-        "danish": "Ost"
-    }
-]
+        },
+        {
+            "english": "Mushroom",
+            "danish": "Svampe"
+        },
+        {
+            "english": "Cheese",
+            "danish": "Ost"
+        }
+    ],
+    "Kitchen": [
+        {
+            "english": "Oven",
+            "danish": "Ovn"
+        },
+        {
+            "english": "Fridge",
+            "danish": "Køleskab"
+        },
+        {
+            "english": "Freezer",
+            "danish": "Fryser"
+        }
+    ]
+}
