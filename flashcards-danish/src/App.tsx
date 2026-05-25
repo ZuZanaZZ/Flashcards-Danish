@@ -28,8 +28,8 @@ function App() {
       <div className="flex flex-col items-center sm:w-full m-16 sm:mt-32">
         <Card frontSide={Data[category][index].english} backSide={Data[category][index].danish}/>
         <div className="mt-8 text-2xl md:text-4xl space-x-32">
-          <button onClick={handleLeft} className="button">◁</button>
-          <button onClick={handleRight} className="button">▷</button>
+          <button onClick={handleLeft} className="border button">◁</button>
+          <button onClick={handleRight} className="border button">▷</button>
         </div>
       </div>
     </div>

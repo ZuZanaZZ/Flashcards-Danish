@@ -9,8 +9,8 @@ export default function Navbar({ setCategory }: Props) {
     <div className="flex flex-col gap-8">
       <h1 className="text-pink-900 text-left text-xl sm:text-2xl md:text-4xl">Flashcards for Danish</h1>
       <ul className="flex flex-col gap-2">
-        <li className="text-pink-900 text-left cursor-pointer" onClick={() => setCategory("Food")} >Food</li>
-        <li className="text-pink-900 text-left cursor-pointer" onClick={() => setCategory("Kitchen")}>Kitchen</li>
+        <li onClick={() => setCategory("Food")} className="text-pink-900 text-left border button">Food</li>
+        <li onClick={() => setCategory("Kitchen")} className="text-pink-900 text-left border button">Kitchen</li>
       </ul>
     </div>
   </nav>

@@ -62,7 +62,20 @@ h1 {
 .button{
   cursor: pointer;
   user-select: none;
-  color: var(--color-pink-900)
+  color: var(--color-pink-900);
+  border-width: 1px; 
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+  padding-top: 0.5rem; 
+  padding-bottom: 0.5rem; 
+}
+
+.button:hover{
+  background-color: var(--color-pink-50);
+}
+
+.button:active{
+  background-color: var(--color-pink-100);
 }
 
 .border{
