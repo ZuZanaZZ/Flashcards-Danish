@@ -59,6 +59,10 @@ h1 {
   color: var(--color-pink-900);
 }
 
+.flashcard:active{
+  background-color: var(--color-pink-100);
+}
+
 .button{
   cursor: pointer;
   user-select: none;
