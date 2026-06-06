@@ -1,30 +1,424 @@
 {
-    "Food": [
+    "Hv-words": [
         {
-        "english": "Bread",
-        "danish": "Brød"
+        "english": "What",
+        "danish": "Hvad"
         },
         {
-            "english": "Mushroom",
-            "danish": "Svampe"
+        "english": "Who",
+        "danish": "Hvem"
         },
         {
-            "english": "Cheese",
-            "danish": "Ost"
+        "english": "Where",
+        "danish": "Hvor"
+        },
+        {
+        "english": "Why",
+        "danish": "Hvorfor"
+        },
+        {
+        "english": "How",
+        "danish": "Hvordan"
+        },
+        {
+        "english": "When",
+        "danish": "Hvornår"
+        },
+        {
+        "english": "Whose",
+        "danish": "Hvis"
+        },
+        {
+        "english": "How old",
+        "danish": "Hvor gammel"
+        },
+        {
+        "english": "How long",
+        "danish": "Hvor længe"
         }
     ],
+
+    "Rooms": [
+        {
+        "english": "Living Room",
+        "danish": "en Stue"
+        },
+        {
+        "english": "Bedroom",
+        "danish": "et Soveværelse"
+        },
+        {
+        "english": "Bathroom",
+        "danish": "et Badeværelse"
+        },
+        {
+        "english": "Kitchen",
+        "danish": "et Køkken"
+        },
+        {
+        "english": "Dining Room",
+        "danish": "en Spisestue"
+        },
+        {
+        "english": "Balcony",
+        "danish": "en Altan"
+        },
+        {
+        "english": "Hallway",
+        "danish": "en Gang"
+        },
+        {
+        "english": "Office",
+        "danish": "et Kontor"
+        },
+        {
+        "english": "Laundry Room",
+        "danish": "et Vaskerum"
+        },
+        {
+        "english": "Garage",
+        "danish": "en Garage"
+        }
+    ],
+
+    "Living Room": [
+        {
+        "english": "Sofa",
+        "danish": "en Sofa"
+        },
+        {
+        "english": "Armchair",
+        "danish": "en Lænestol"
+        },
+        {
+        "english": "Coffee Table",
+        "danish": "et Sofabord"
+        },
+        {
+        "english": "Television",
+        "danish": "et Fjernsyn"
+        },
+        {
+        "english": "Lamp",
+        "danish": "en Lampe"
+        },
+        {
+        "english": "Carpet",
+        "danish": "et Tæppe"
+        },
+        {
+        "english": "Bookshelf",
+        "danish": "en Bogreol"
+        },
+        {
+        "english": "Curtains",
+        "danish": "Gardiner"
+        },
+        {
+        "english": "Remote Control",
+        "danish": "en Fjernbetjening"
+        },
+        {
+        "english": "Cushion",
+        "danish": "en Pude"
+        }
+    ],
+
+    "Bedroom": [
+        {
+        "english": "Bed",
+        "danish": "en Seng"
+        },
+        {
+        "english": "Pillow",
+        "danish": "en Pude"
+        },
+        {
+        "english": "Blanket",
+        "danish": "et Tæppe"
+        },
+        {
+        "english": "Wardrobe",
+        "danish": "et Klædeskab"
+        },
+        {
+        "english": "Nightstand",
+        "danish": "et Natbord"
+        },
+        {
+        "english": "Lamp",
+        "danish": "en Lampe"
+        },
+        {
+        "english": "Mirror",
+        "danish": "et Spejl"
+        },
+        {
+        "english": "Alarm Clock",
+        "danish": "et Vækkeur"
+        },
+        {
+        "english": "Dresser",
+        "danish": "en Kommode"
+        },
+        {
+        "english": "Hanger",
+        "danish": "en Bøjle"
+        }
+    ],
+
+    "Bathroom": [
+        {
+        "english": "Toilet",
+        "danish": "et Toilet"
+        },
+        {
+        "english": "Sink",
+        "danish": "en Vask"
+        },
+        {
+        "english": "Shower",
+        "danish": "et Brusebad"
+        },
+        {
+        "english": "Bathtub",
+        "danish": "et Badekar"
+        },
+        {
+        "english": "Mirror",
+        "danish": "et Spejl"
+        },
+        {
+        "english": "Towel",
+        "danish": "et Håndklæde"
+        },
+        {
+        "english": "Soap",
+        "danish": "en Sæbe"
+        },
+        {
+        "english": "Toothbrush",
+        "danish": "en Tandbørste"
+        },
+        {
+        "english": "Toothpaste",
+        "danish": "en Tandpasta"
+        },
+        {
+        "english": "Shampoo",
+        "danish": "en Shampoo"
+        }
+    ],
+
     "Kitchen": [
         {
-            "english": "Oven",
-            "danish": "Ovn"
+        "english": "Refrigerator",
+        "danish": "et Køleskab"
         },
         {
-            "english": "Fridge",
-            "danish": "Køleskab"
+        "english": "Oven",
+        "danish": "en Ovn"
         },
         {
-            "english": "Freezer",
-            "danish": "Fryser"
+        "english": "Stove",
+        "danish": "et Komfur"
+        },
+        {
+        "english": "Microwave",
+        "danish": "en Mikrobølgeovn"
+        },
+        {
+        "english": "Sink",
+        "danish": "en Vask"
+        },
+        {
+        "english": "Plate",
+        "danish": "en Tallerken"
+        },
+        {
+        "english": "Cup",
+        "danish": "en Kop"
+        },
+        {
+        "english": "Knife",
+        "danish": "en Kniv"
+        },
+        {
+        "english": "Fork",
+        "danish": "en Gaffel"
+        },
+        {
+        "english": "Pan",
+        "danish": "en Pande"
+        }
+    ],
+
+    "Balcony": [
+        {
+        "english": "Chair",
+        "danish": "en Stol"
+        },
+        {
+        "english": "Table",
+        "danish": "et Bord"
+        },
+        {
+        "english": "Flower Pot",
+        "danish": "en Blomsterpotte"
+        },
+        {
+        "english": "Plant",
+        "danish": "en Plante"
+        },
+        {
+        "english": "Railing",
+        "danish": "et Rækværk"
+        },
+        {
+        "english": "Lantern",
+        "danish": "en Lanterne"
+        },
+        {
+        "english": "Cushion",
+        "danish": "en Pude"
+        },
+        {
+        "english": "Umbrella",
+        "danish": "en Parasol"
+        },
+        {
+        "english": "Watering Can",
+        "danish": "en Vandkande"
+        },
+        {
+        "english": "Outdoor Rug",
+        "danish": "et Udendørstæppe"
+        }
+    ],
+
+    "Transportation": [
+        {
+        "english": "Car",
+        "danish": "en Bil"
+        },
+        {
+        "english": "Bus",
+        "danish": "en Bus"
+        },
+        {
+        "english": "Train",
+        "danish": "et Tog"
+        },
+        {
+        "english": "Bicycle",
+        "danish": "en Cykel"
+        },
+        {
+        "english": "Motorcycle",
+        "danish": "en Motorcykel"
+        },
+        {
+        "english": "Airplane",
+        "danish": "et Fly"
+        },
+        {
+        "english": "Boat",
+        "danish": "en Båd"
+        },
+        {
+        "english": "Ship",
+        "danish": "et Skib"
+        },
+        {
+        "english": "Taxi",
+        "danish": "en Taxa"
+        },
+        {
+        "english": "Tram",
+        "danish": "en Sporvogn"
+        },
+        {
+        "english": "Subway",
+        "danish": "en Metro"
+        },
+        {
+        "english": "Helicopter",
+        "danish": "en Helikopter"
+        },
+        {
+        "english": "Ticket",
+        "danish": "en Billet"
+        },
+        {
+        "english": "Station",
+        "danish": "en Station"
+        },
+        {
+        "english": "Platform",
+        "danish": "en Perron"
+        },
+        {
+        "english": "Journey",
+        "danish": "en Rejse"
+        },
+        {
+        "english": "Passenger",
+        "danish": "en Passager"
+        },
+        {
+        "english": "Driver",
+        "danish": "en Chauffør"
+        },
+        {
+        "english": "Traffic",
+        "danish": "Trafik"
+        },
+        {
+        "english": "Road",
+        "danish": "en Vej"
+        }
+    ],
+
+    "Colleagues": [
+        {
+        "english": "Colleague",
+        "danish": "en Kollega"
+        },
+        {
+        "english": "Manager",
+        "danish": "en Leder"
+        },
+        {
+        "english": "Employee",
+        "danish": "en Medarbejder"
+        },
+        {
+        "english": "Team",
+        "danish": "et Team"
+        },
+        {
+        "english": "Meeting",
+        "danish": "et Møde"
+        },
+        {
+        "english": "Office",
+        "danish": "et Kontor"
+        },
+        {
+        "english": "Project",
+        "danish": "et Projekt"
+        },
+        {
+        "english": "Deadline",
+        "danish": "en Deadline"
+        },
+        {
+        "english": "Supervisor",
+        "danish": "en Supervisor"
+        },
+        {
+        "english": "Coworker",
+        "danish": "en Arbejdskollega"
         }
     ]
 }

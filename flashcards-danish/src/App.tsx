@@ -7,7 +7,7 @@ import Navbar from "./Navbar"
 type Category = keyof typeof Data;
 
 function App() {
-  const [category, setCategory] = React.useState<Category>("Food");
+  const [category, setCategory] = React.useState<Category>("Hv-words");
   const [index, setIndex] = React.useState(0);
 
     React.useEffect(() => {
