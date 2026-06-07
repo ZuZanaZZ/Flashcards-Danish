@@ -29,9 +29,10 @@ function App() {
       <Navbar setCategory={setCategory}/>
         <div className="m-8 flex flex-col grow items-center">
           <Card frontSide={Data[category][index].english} backSide={Data[category][index].danish}/>
-          <div className="mt-8 flex gap-16 text-2xl md:text-4xl">
-            <button onClick={handleLeft} className="border button px-4 py-2">◁</button>
-            <button onClick={handleRight} className="border button px-4 py-2">▷</button>
+          <div className="mt-8 flex gap-16 items-center">
+            <button onClick={handleLeft} className="border button px-4 py-2 text-2xl md:text-4xl">◁</button>
+            <p className="text-pink-900 text-xl md:text-2xl">{index + 1}/{Data[category].length}</p>
+            <button onClick={handleRight} className="border button px-4 py-2 text-2xl md:text-4xl">▷</button>
           </div>
         </div>
       </div>
