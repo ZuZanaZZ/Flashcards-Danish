@@ -50,13 +50,40 @@ h1 {
   }
 }
 
-.flashcard{
+.flashcard {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+
   cursor: pointer;
   user-select: none;
-  color: var(--color-pink-900);
+
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateX(var(--rotate, 0));
+}
+
+.flashcard .front,
+.flashcard .back {
+  position: absolute;
+  backface-visibility: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashcard.flipped {
+  --rotate: 180deg;
+}
+
+.front {
+  transform: rotateX(0deg);
+}
+
+.back {
+  transform: rotateX(180deg);
 }
 
 .flashcard:active{
