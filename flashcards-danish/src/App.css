@@ -40,3 +40,65 @@
 .read-the-docs {
   color: #888;
 }
+
+.flashcard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateX(var(--rotate, 0));
+}
+
+.flashcard .front,
+.flashcard .back {
+  position: absolute;
+  backface-visibility: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashcard.flipped {
+  --rotate: 180deg;
+}
+
+.front {
+  transform: rotateX(0deg);
+}
+
+.back {
+  transform: rotateX(180deg);
+}
+
+.flashcard:active{
+  background-color: var(--color-pink-100);
+}
+
+.button{
+  cursor: pointer;
+  user-select: none;
+  color: var(--color-pink-900);
+  border: none;
+}
+
+.button:hover{
+  background-color: var(--color-pink-50);
+}
+
+.button:active{
+  background-color: var(--color-pink-100);
+}
+
+.border{
+  border-width: 4px;
+  border-radius: var(--radius-xl);
+  border-color: var(--color-pink-300);
+  border-style: solid;
+}
