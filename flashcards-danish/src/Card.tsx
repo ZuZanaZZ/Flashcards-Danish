@@ -13,7 +13,7 @@ export default function Card(props: { frontSide: string; backSide: string; }) {
 
   return (
     <div
-    className={`text-red-900 flashcard border w-full max-w-3xl aspect-2/1 text-2xl md:text-4xl ${isFlipped ? "flipped" : ""}`}
+    className={`flashcard border w-full max-w-3xl aspect-2/1 text-red-900 text-2xl md:text-4xl ${isFlipped ? "flipped" : ""}`}
     onClick={handleClick}>
       <div className="front">{props.frontSide}</div>
       <div className="back">{props.backSide}</div>
