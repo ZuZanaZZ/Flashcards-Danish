@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=swap');
 @import "tailwindcss";
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Fredoka, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-variation-settings: "wdth" 100;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 600;
+  color: var(--color-text);
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-text: #6f0f1f;
+  --color-background: #fff9eb;
+  --color-primary: #fd9bb5;
+  --color-secondary: #fedfdc;
+  --color-accent: #cdfff8;
 }
 
 a {
@@ -30,7 +38,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ffffe3;
+  background-color: var(--color-background);
 }
 
 h1 {
