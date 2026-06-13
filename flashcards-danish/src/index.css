@@ -6,7 +6,6 @@
   font-variation-settings: "wdth" 100;
   line-height: 1.5;
   font-weight: 600;
-  color: var(--color-text);
 
   color-scheme: light dark;
   background-color: #242424;
@@ -39,6 +38,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 h1 {
