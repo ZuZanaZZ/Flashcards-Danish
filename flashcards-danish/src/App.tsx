@@ -24,14 +24,14 @@ function App() {
 
   return (
     <div className="flex flex-col h-screen w-screen">
-      <h1 className="mx-8 mt-8 text-left text-pink-900 text-2xl md:text-4xl">Flashcards for Danish</h1>
+      <h1 className="mx-8 mt-8 text-left text-2xl md:text-4xl">Flashcards for Danish</h1>
       <div className="flex flex-col grow md:flex-row">
         <Navbar setCategory={setCategory}/>
         <main className="m-8 flex flex-col grow items-center">
           <Card frontSide={Data[category][index].english} backSide={Data[category][index].danish}/>
           <div className="mt-8 flex gap-16 items-center">
             <button onClick={handleLeft} className="border button px-4 py-2 text-2xl md:text-4xl">◁</button>
-            <p className="text-pink-900 text-xl md:text-2xl">{index + 1}/{Data[category].length}</p>
+            <p className="text-xl md:text-2xl">{index + 1}/{Data[category].length}</p>
             <button onClick={handleRight} className="border button px-4 py-2 text-2xl md:text-4xl">▷</button>
           </div>
         </main>
