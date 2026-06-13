@@ -30,7 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ffffe3;
+  background-color: var(--color-yellow-50);
 }
 
 h1 {
