@@ -24,8 +24,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    "esModuleInterop": true,
-    "ignoreDeprecations": "6.0",
+    "esModuleInterop": true
   },
   "include": ["src"]
 }
