@@ -20,7 +20,7 @@ function App() {
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
 
-  const items = Data[category];
+  const currentCard = flashcards[index];
 
   React.useEffect(() => {
     setIndex(0);
@@ -74,8 +74,8 @@ function App() {
 
           {!loading && !error && flashcards.length > 0 && (
             <Card
-              frontSide={flashcards[0].english}
-              backSide={flashcards[0].danish}
+              frontSide={currentCard.english}
+              backSide={currentCard.danish}
             />
           )}
 
